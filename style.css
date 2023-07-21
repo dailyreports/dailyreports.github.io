@@ -18,9 +18,11 @@ label {
 }
 
 input {
-    width: 200%;
+    width: 100%;
+    max-width: 800px;
     padding: 10px;
     margin-top: 5px;
+    margin-right: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
     font-size: 16px;
