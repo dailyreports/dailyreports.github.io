@@ -56,6 +56,7 @@ button:hover {
 }
 
 #copyButton {
+    margin: auto;
     display: none;
     margin-top: 10px;
 }
