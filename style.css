@@ -18,11 +18,11 @@ label {
 
 input {
     width: 200%;
-    padding: 50px;
+    padding: 10px;
     margin-top: 5px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    font-size: 32px;
+    font-size: 16px;
 }
 
 button {
