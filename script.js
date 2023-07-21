@@ -4,8 +4,7 @@ function generateReport() {
     const skillsMastered = document.getElementById("skillsMastered").value;
     const skillsToPractice = document.getElementById("skillsToPractice").value;
 
-    const reportTemplate = `Dear Parent,
-    Today ${childName} worked on ${skillsWorkedOn}. They made lots of progress on ${skillsMastered} and we will continue to help ${childName} get a better understanding of ${skillsToPractice}. Please let us know if you have any questions!`;
+    const reportTemplate = `Hello! Today ${childName} worked on ${skillsWorkedOn}. They made lots of progress on ${skillsMastered} and we will continue to help ${childName} get a better understanding of [PRACTICE SKILL]. Please let us know if you have any questions!`;
 
     document.getElementById("reportOutput").innerText = reportTemplate;
     const copyButton = document.getElementById("copyButton");
