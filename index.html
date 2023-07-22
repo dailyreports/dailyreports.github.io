@@ -5,7 +5,20 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Daily Report</h1>
+    <h1>Daily Report Generator</h1>
+    <div class="credits-container">
+    <div class="credits">Created by Ashley Feng</div>
+    <div class="contact">Feedback: ashley.c.feng@gmail.com</div>
+    </div>
+    <label for="templateSelect">Choose a Template:</label>
+    <select id="templateSelect">
+        <option value="">Select a template</option>
+        <option value="today">Daily Report from Today</option>
+        <option value="yesterday">Daily Report from Yesterday</option>
+    </select>
+
+    <div id="inputFields" style="display: none;">
+    <br>
     <label for="childName">Child's Name:</label>
     <input type="text" id="childName" required>
     <br>
@@ -23,7 +36,9 @@
     <p id="reportOutput"></p>
 
     <button id="copyButton" style="display: none;">Copy Report</button>
-
+    </div>
+  
+    
     <script src="script.js"></script>
 </body>
 </html>
